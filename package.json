@@ -1,0 +1,16 @@
+{
+  "name": "studio-operator-freelance-agent",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Freelance lead engine and delivery agent: Freelancer discovery, scoring, Claude-drafted proposals, vetted auto-bidding and QA-gated delivery.",
+  "type": "module",
+  "engines": { "node": ">=22.18" },
+  "scripts": {
+    "test": "node --test",
+    "seed:example": "node scripts/seed-example.mjs",
+    "discover": "node scripts/studio-sources.mjs",
+    "fast-lane": "node scripts/studio-fast-lane.mjs",
+    "bid": "node scripts/studio-bid.mjs",
+    "deliver": "node scripts/studio-deliver.mjs"
+  }
+}

@@ -1,0 +1,17 @@
+import type { StudioState, StudioMode, StudioJob, StudioSettings, StudioMetrics, StudioEconomics, StudioAudit } from '../lib/studio';
+export function studioRoot(): string;
+export function now(): string;
+export function uid(): string;
+export function text(value: unknown, name: string, max?: number, optional?: boolean): string;
+export function integer(value: unknown, name: string, max?: number): number;
+export function defaultSettings(): StudioSettings;
+export function emptyStudio(mode?: StudioMode): StudioState;
+export function demoStudio(): StudioState;
+export function makeJob(input: Record<string, unknown>, mode: StudioMode, settings: StudioSettings): StudioJob;
+export function calculateEconomics(job: StudioJob, settings: StudioSettings): StudioEconomics;
+export function studioMetrics(state: StudioState): StudioMetrics;
+export function audit(state: StudioState, action: string, detail: string, job?: StudioJob | null, actor?: 'human'|'operator'|'system'): StudioAudit;
+export function readStudio(mode?: StudioMode): Promise<StudioState>;
+export function mutateStudio<T>(mode: StudioMode, mutate: (state: StudioState) => T | Promise<T>): Promise<T>;
+export function validateSettings(patch: unknown): Partial<StudioSettings>;
+export function applyStudioAction(input: Record<string, unknown>): Promise<StudioState>;

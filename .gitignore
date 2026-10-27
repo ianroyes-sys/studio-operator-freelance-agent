@@ -1,0 +1,12 @@
+node_modules/
+.next/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+# Live state: leads, deliveries, client work, tokens. Fixtures live in data/examples/.
+data/studio/
+artifacts/
+tmp/
+STOP

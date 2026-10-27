@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "config": {
+    "mode": "ping",
+    "maxAgeHours": 8,
+    "maxLiveBids": 30,
+    "minScore": 60,
+    "fits": [
+      "strong"
+    ],
+    "dailyPings": 6,
+    "dailyBids": 2,
+    "monthlyBids": 6,
+    "maxBidUsd": 1500,
+    "milestonePercentage": 50,
+    "pauseHoursOnError": 6,
+    "maxConsecutiveFailures": 3,
+    "autoAcceptAwards": true
+  },
+  "state": {
+    "day": "2026-01-15",
+    "dayPings": 1,
+    "dayBids": 0,
+    "month": "2026-01",
+    "monthBids": 0,
+    "bidderId": null,
+    "pausedUntil": null,
+    "failures": 0,
+    "lastError": null,
+    "handled": {
+      "freelancer:900000001": {
+        "at": "2026-01-15T15:00:00.000Z",
+        "outcome": "pinged",
+        "liveBids": 4
+      }
+    }
+  },
+  "receipts": [
+    {
+      "at": "2026-01-15T15:00:00.000Z",
+      "id": "freelancer:900000001",
+      "outcome": "pinged",
+      "liveBids": 4
+    }
+  ]
+}

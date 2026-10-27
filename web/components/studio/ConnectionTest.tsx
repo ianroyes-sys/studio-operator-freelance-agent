@@ -1,0 +1,7 @@
+"use client";
+import {useState} from "react";
+import s from "./Studio.module.css";
+export default function ConnectionTest({busy,act}:{busy:boolean;act:(payload:Record<string,unknown>)=>Promise<unknown>}){
+ const [result,setResult]=useState<{ready:boolean;model:string;checkedAt:string}|null>(null);const [model,setModel]=useState("opus");
+ return <section className={s.panel} style={{marginBottom:18}}><h2>Local model connection test</h2><p className={s.prose}>Run a small structured response through your local Claude Code login (MAX subscription). This confirms model access and does not create a client job or buy API credits.</p><div className={s.actions} style={{marginTop:16}}><select className={s.select} style={{width:"auto"}} aria-label="Model to test" value={model} onChange={e=>setModel(e.target.value)}><option value="opus">Claude Opus</option><option value="sonnet">Claude Sonnet</option></select><button className={s.button} disabled={busy} onClick={async()=>{setResult(null);const value=await act({action:"connection_test",model});if(value&&typeof value==="object"&&"ready" in value)setResult(value as {ready:boolean;model:string;checkedAt:string});}}>{busy?"Testing connection…":"Test local connection"}</button></div>{result&&<div className={s.notice} role="status">{result.model} · {result.ready?"Connection verified":"Connection unavailable"} · {new Date(result.checkedAt).toLocaleString()}</div>}</section>;
+}

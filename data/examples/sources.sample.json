@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "pollSeconds": 300,
+  "updatedAt": "2026-01-15T15:00:00.000Z",
+  "sources": [
+    {
+      "id": "freelancer",
+      "name": "Freelancer",
+      "mode": "official_api",
+      "status": "live",
+      "url": "https://www.freelancer.com/search/projects",
+      "note": "Example data.",
+      "lastAttemptAt": "2026-01-15T15:00:00.000Z",
+      "lastSuccessAt": "2026-01-15T15:00:00.000Z",
+      "nextRefreshAt": "2026-01-15T15:05:00.000Z",
+      "error": null,
+      "failureCount": 0
+    }
+  ],
+  "listings": [
+    {
+      "id": "freelancer:900000001",
+      "source": "freelancer",
+      "title": "Responsive landing page for a neighborhood bakery",
+      "description": "We are a small bakery and need a one-page responsive website: hero, menu, photo gallery and a catering order form that emails us. We supply the logo, copy and photos. Deliver HTML/CSS source with a README. No hosting or payments needed.",
+      "descriptionIncomplete": false,
+      "descriptionOriginalLength": 236,
+      "url": "https://www.freelancer.com/projects/html/responsive-landing-page-bakery-example",
+      "publishedAt": "2026-01-15T14:00:00.000Z",
+      "firstSeenAt": "2026-01-15T15:00:00.000Z",
+      "lastSeenAt": "2026-01-15T15:00:00.000Z",
+      "currency": "USD",
+      "budgetMin": 250,
+      "budgetMax": 750,
+      "budgetType": "fixed",
+      "skills": [
+        "HTML",
+        "CSS",
+        "Website Design"
+      ],
+      "suitable": true,
+      "fitReasons": [
+        "Text/code deliverable keywords match the configured local-tool services. Confirm scope before committing."
+      ],
+      "actionBlocker": "Freelancer currently requires $20 available wallet balance to bid. Discovery is free; bidding and account eligibility are unverified.",
+      "availability": "last_observed_active",
+      "shortlisted": false,
+      "bidCount": 4,
+      "bidAvg": 320,
+      "urgent": false,
+      "language": "en"
+    },
+    {
+      "id": "freelancer:900000002",
+      "source": "freelancer",
+      "title": "Python script to merge monthly CSV exports into one report",
+      "description": "I export 12 CSV files a year from our booking tool (same columns). I need a Python script that merges them, removes duplicate bookings by ID, and writes a summary sheet with monthly totals. Sample files will be attached after award.",
+      "descriptionIncomplete": false,
+      "descriptionOriginalLength": 232,
+      "url": "https://www.freelancer.com/projects/python/python-script-merge-csv-example",
+      "publishedAt": "2026-01-15T12:00:00.000Z",
+      "firstSeenAt": "2026-01-15T15:00:00.000Z",
+      "lastSeenAt": "2026-01-15T15:00:00.000Z",
+      "currency": "USD",
+      "budgetMin": 100,
+      "budgetMax": 250,
+      "budgetType": "fixed",
+      "skills": [
+        "Python",
+        "Excel"
+      ],
+      "suitable": true,
+      "fitReasons": [
+        "Text/code deliverable keywords match the configured local-tool services. Confirm scope before committing."
+      ],
+      "actionBlocker": "Freelancer currently requires $20 available wallet balance to bid. Discovery is free; bidding and account eligibility are unverified.",
+      "availability": "last_observed_active",
+      "shortlisted": false,
+      "bidCount": 9,
+      "bidAvg": 160,
+      "urgent": false,
+      "language": "en"
+    },
+    {
+      "id": "freelancer:900000003",
+      "source": "freelancer",
+      "title": "Logo and brand identity for a fitness studio",
+      "description": "Need a modern logo, color palette and social media kit for a new boutique fitness studio. Please share your portfolio of previous logo work.",
+      "descriptionIncomplete": false,
+      "descriptionOriginalLength": 140,
+      "url": "https://www.freelancer.com/projects/logo-design/logo-brand-fitness-example",
+      "publishedAt": "2026-01-15T13:00:00.000Z",
+      "firstSeenAt": "2026-01-15T15:00:00.000Z",
+      "lastSeenAt": "2026-01-15T15:00:00.000Z",
+      "currency": "USD",
+      "budgetMin": 30,
+      "budgetMax": 250,
+      "budgetType": "fixed",
+      "skills": [
+        "Logo Design"
+      ],
+      "suitable": false,
+      "fitReasons": [
+        "No clear local-tool service match in the source text."
+      ],
+      "actionBlocker": "Freelancer currently requires $20 available wallet balance to bid. Discovery is free; bidding and account eligibility are unverified.",
+      "availability": "last_observed_active",
+      "shortlisted": false,
+      "bidCount": 61,
+      "bidAvg": 90,
+      "urgent": false,
+      "language": "en"
+    }
+  ],
+  "receipts": [
+    {
+      "at": "2026-01-15T15:00:00.000Z",
+      "source": "freelancer",
+      "outcome": "success",
+      "observed": 3,
+      "newListings": 3
+    }
+  ]
+}

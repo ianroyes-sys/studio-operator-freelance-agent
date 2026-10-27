@@ -1,0 +1,153 @@
+{
+  "version": 1,
+  "updatedAt": "2026-01-15T15:00:00.000Z",
+  "leads": {
+    "freelancer:900000001": {
+      "id": "freelancer:900000001",
+      "status": "drafted",
+      "createdAt": "2026-01-15T15:00:00.000Z",
+      "title": "Responsive landing page for a neighborhood bakery",
+      "url": "https://www.freelancer.com/projects/html/responsive-landing-page-bakery-example",
+      "source": "freelancer",
+      "publishedAt": "2026-01-15T14:00:00.000Z",
+      "currency": "USD",
+      "budgetMin": 250,
+      "budgetMax": 750,
+      "budgetType": "fixed",
+      "score": 58,
+      "tier": "warm",
+      "usdMin": 250,
+      "usdMax": 750,
+      "hourly": false,
+      "bidCount": 4,
+      "bidAvgUsd": 320,
+      "ageHours": 1,
+      "reasons": [
+        "Budget ~$250–$750",
+        "Fast deliverable: landing page",
+        "Only 4 bids so far",
+        "Posted in the last 2 hours"
+      ],
+      "flags": [
+        "Mentions out-of-scope work: logo"
+      ],
+      "suggestedBidUsd": 290,
+      "scoredAt": "2026-01-15T15:00:00.000Z",
+      "proposal": {
+        "worthBidding": true,
+        "fit": "strong",
+        "fitReason": "Self-contained static site with supplied assets.",
+        "coverLetter": "Your bakery needs a one-page site that turns visitors into catering orders, with your menu and photos front and center. I will build it in clean, responsive HTML/CSS with a hero, menu, gallery and a catering form wired to your email, then hand over the source and a README. Which email address should receive catering requests? $300 fixed, delivered in 3 days.",
+        "deliveryDays": 3,
+        "approach": [
+          "Scaffold static page",
+          "Build sections from supplied copy",
+          "Wire form to a mailto/form endpoint",
+          "Check 390px and 1440px"
+        ],
+        "clarifyingQuestions": [
+          "Which email should receive catering requests?"
+        ],
+        "risks": [
+          "Assets arrive late"
+        ],
+        "bidUsd": 290,
+        "model": "sonnet",
+        "draftedAt": "2026-01-15T15:00:00.000Z"
+      },
+      "vet": {
+        "verdict": "bid",
+        "deliveryClass": "static-site",
+        "autonomy": 9,
+        "reasons": "Files-only deliverable, assets supplied, fixed scope.",
+        "acceptanceCriteria": [
+          "Hero, menu, gallery and catering form sections render at 390px and 1440px",
+          "Catering form validates required fields",
+          "README explains how to deploy the static files"
+        ],
+        "inputsNeededFromClient": [
+          "Logo, copy and photos"
+        ],
+        "humanOnly": [],
+        "estimatedHours": 5,
+        "deliveryDays": 3,
+        "bidUsd": 300,
+        "coverLetter": "Your bakery needs a one-page site that turns visitors into catering orders, with your menu and photos front and center. I will build it in clean, responsive HTML/CSS with a hero, menu, gallery and a catering form wired to your email, then hand over the source and a README. Which email address should receive catering requests? $300 fixed, delivered in 3 days.",
+        "vettedAt": "2026-01-15T15:00:00.000Z"
+      }
+    },
+    "freelancer:900000002": {
+      "id": "freelancer:900000002",
+      "status": "drafted",
+      "createdAt": "2026-01-15T15:00:00.000Z",
+      "title": "Python script to merge monthly CSV exports into one report",
+      "url": "https://www.freelancer.com/projects/python/python-script-merge-csv-example",
+      "source": "freelancer",
+      "publishedAt": "2026-01-15T12:00:00.000Z",
+      "currency": "USD",
+      "budgetMin": 100,
+      "budgetMax": 250,
+      "budgetType": "fixed",
+      "score": 79,
+      "tier": "hot",
+      "usdMin": 100,
+      "usdMax": 250,
+      "hourly": false,
+      "bidCount": 9,
+      "bidAvgUsd": 160,
+      "ageHours": 3,
+      "reasons": [
+        "Budget ~$100–$250",
+        "Fast deliverable: python script",
+        "9 bids",
+        "Posted today"
+      ],
+      "flags": [],
+      "suggestedBidUsd": 145,
+      "scoredAt": "2026-01-15T15:00:00.000Z",
+      "proposal": {
+        "worthBidding": true,
+        "fit": "ok",
+        "fitReason": "Clear input and output; needs the sample files.",
+        "coverLetter": "You want twelve monthly booking exports merged into one clean report without duplicate bookings. I will write a Python script that merges the CSVs, de-duplicates by booking ID and writes a summary sheet with monthly totals, and include a sample run. Do refunds appear as separate rows or negative amounts? $160 fixed, 2 days.",
+        "deliveryDays": 2,
+        "approach": [
+          "Inspect sample files",
+          "Write merge + dedupe",
+          "Summary sheet",
+          "Sample run"
+        ],
+        "clarifyingQuestions": [
+          "How are refunds represented?"
+        ],
+        "risks": [
+          "Column drift between months"
+        ],
+        "bidUsd": 145,
+        "model": "sonnet",
+        "draftedAt": "2026-01-15T15:00:00.000Z"
+      }
+    }
+  },
+  "daily": {
+    "date": "2026-01-15",
+    "drafts": 2
+  },
+  "receipts": [
+    {
+      "at": "2026-01-15T15:00:00.000Z",
+      "id": "freelancer:900000001",
+      "outcome": "drafted"
+    },
+    {
+      "at": "2026-01-15T15:00:00.000Z",
+      "id": "freelancer:900000002",
+      "outcome": "drafted"
+    },
+    {
+      "at": "2026-01-15T15:00:00.000Z",
+      "id": "freelancer:900000001",
+      "outcome": "vet_bid"
+    }
+  ]
+}

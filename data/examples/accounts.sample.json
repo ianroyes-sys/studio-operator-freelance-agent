@@ -1,0 +1,57 @@
+[
+  {
+    "id": "upwork",
+    "name": "Upwork",
+    "accountStatus": "Signed in \u00b7 example account",
+    "profileStatus": "Draft profile, not published",
+    "payoutStatus": "Payout method not linked",
+    "setupUrl": "https://www.upwork.com/nx/create-profile/",
+    "payoutUrl": "https://www.upwork.com/nx/payments/disbursement-methods",
+    "nextStep": "Finish the profile and add a payout method in the platform's own settings.",
+    "checkedAt": "2026-01-15"
+  },
+  {
+    "id": "fiverr",
+    "name": "Fiverr",
+    "accountStatus": "Not created",
+    "profileStatus": "Not started",
+    "payoutStatus": "Payout method not linked",
+    "setupUrl": "https://www.fiverr.com/login",
+    "payoutUrl": "https://www.fiverr.com/users/me/seller_dashboard",
+    "nextStep": "Finish the profile and add a payout method in the platform's own settings.",
+    "checkedAt": "2026-01-15"
+  },
+  {
+    "id": "contra",
+    "name": "Contra",
+    "accountStatus": "Not created",
+    "profileStatus": "Not started",
+    "payoutStatus": "Payout method not linked",
+    "setupUrl": "https://contra.com/",
+    "payoutUrl": "https://contra.com/wallet",
+    "nextStep": "Finish the profile and add a payout method in the platform's own settings.",
+    "checkedAt": "2026-01-15"
+  },
+  {
+    "id": "peopleperhour",
+    "name": "PeoplePerHour",
+    "accountStatus": "Not created",
+    "profileStatus": "Not started",
+    "payoutStatus": "Payout method not linked",
+    "setupUrl": "https://www.peopleperhour.com/member-application",
+    "payoutUrl": "https://www.peopleperhour.com/settings/payments",
+    "nextStep": "Finish the profile and add a payout method in the platform's own settings.",
+    "checkedAt": "2026-01-15"
+  },
+  {
+    "id": "freelancer",
+    "name": "Freelancer",
+    "accountStatus": "Signed in \u00b7 example account",
+    "profileStatus": "Not started",
+    "payoutStatus": "Payout method not linked",
+    "setupUrl": "https://www.freelancer.com/signup",
+    "payoutUrl": "https://www.freelancer.com/payments/withdraw",
+    "nextStep": "Finish the profile and add a payout method in the platform's own settings.",
+    "checkedAt": "2026-01-15"
+  }
+]

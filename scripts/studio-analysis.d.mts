@@ -1,0 +1,11 @@
+import type { StudioState,StudioJob,StudioSettings,BriefAnalysis,StudioStep,StudioEconomics,StudioModel } from '../lib/studio';
+export const analysisSchema: Record<string,unknown>;
+export function validateAnalysis(value: unknown): BriefAnalysis;
+export function parseAnalysis(raw: string): BriefAnalysis;
+export function availableStudioModels(): Promise<StudioModel[]>;
+export function analysisPrompt(job: StudioJob): string;
+export function runStructuredModel(prompt: string,schema: Record<string,unknown>,options?: {model?: StudioModel;timeoutMs?: number;signal?: AbortSignal;runToken?:string;onSpawn?:(pid:number,runToken:string)=>Promise<unknown>}): Promise<string>;
+export function routeAnalysis(job: StudioJob,analysis: BriefAnalysis,settings: StudioSettings,available?: StudioModel[]): {analysis: BriefAnalysis;workflow: StudioStep[];economics: StudioEconomics};
+export function mockAnalysis(job: StudioJob): BriefAnalysis;
+export function analyzeStudioJob(input: Record<string,unknown>): Promise<StudioState>;
+export function editStudioAnalysis(input: Record<string,unknown>): Promise<StudioState>;
